@@ -1,0 +1,47 @@
+body {
+    height: 4000px;
+    font-family: monospace;
+    font-size: 14px;
+    background: linear-gradient(0deg, wheat 0%, wheat 100%);
+}
+
+#fixed {
+    position: fixed;
+    left: 10px; top: 50px;
+    top: 10%;
+    text-align: right;
+}
+
+#cat {
+    position: absolute;
+    left: 2000px;
+    top: 2000px;
+    font-size: 12px;
+    padding: 0% 150px;
+}
+
+#wrong {
+    position: absolute;
+    left: 3500px;
+    top: 3500px;
+    font-size: 18px;
+    padding: 150px;
+}
+
+#clue {
+    position: absolute;
+    left: 0px;
+    top: 3500px;
+    font-size: 18px;
+    padding: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background: yellow;
+}
+
+a:hover {
+    text-decoration: underline;
+}

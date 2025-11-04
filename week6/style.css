@@ -1,0 +1,30 @@
+/* css for index page */
+
+#content {
+   width: 600px;
+   border: 5px solid grey;
+   margin: 0 auto;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.5rem;
+   background-color: wheat;
+}
+
+.hide {
+   color: transparent;
+   border-bottom: 2px solid black;
+}
+
+.hide:hover {
+   color: black;
+   background-color: yellow;
+   cursor: pointer;
+}
+
+div {
+  width: 0%;
+  height: 28%;
+  margin: 0;
+  padding: 0;
+  background-image: url(images/anime.gif);
+  background-repeat: repeat;
+}
